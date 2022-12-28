@@ -1,0 +1,24 @@
+{
+  "name": "test-dmer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commands": "npm run ts:exec src/commands.ts",
+    "dev": "nodemon",
+    "start": "npm run ts:exec src/index.ts",
+    "ts:exec": "ts-node --transpile-only"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
